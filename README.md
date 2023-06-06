@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+LINK SHORTENER UI - TECHNICAL DOCUMENTATION:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview:
+The Link Shortener UI is a React application that provides a user interface for shortening URLs using the Link Shortener backend API.
 
-## Available Scripts
+Getting Started:
+To start the Link Shortener UI, follow these steps:
+Make sure you have Node.js installed on your machine. You can download it from the official Node.js website: https://nodejs.org
+Open a terminal or command prompt and navigate to the root directory of the Link Shortener UI project.
+Install the project dependencies by running the following command:
+npm install
+Once the dependencies are installed, start the development server with the following command:
+npm start
+The Link Shortener UI will be accessible in your web browser at http://localhost:3000.
 
-In the project directory, you can run:
+Usage:
+Enter the URL you want to shorten in the input field.
+Click the "Shorten" button.
+The application will make a POST request to the backend API at http://localhost:8080/shorten.
+If the request is successful, the generated short URL will be displayed below the input field.
+If an error occurs, an error message will be displayed instead.
+Project Structure:
+App.js: The main component that renders the UI and handles user interactions. It contains the logic for making a POST request to the backend API using Axios.
+index.js: The entry point of the application. It renders the App component to the root element in the HTML file.
+App.css: CSS file for styling the UI components.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dependencies:
+The Link Shortener UI utilizes the following dependencies:
+React: JavaScript library for building user interfaces.
+Axios: Promise-based HTTP client for making requests to the backend API.
+Conclusion:
+The Link Shortener UI provides a simple and intuitive interface for generating short URLs using the Link Shortener backend API. By following the usage instructions, you can easily shorten URLs and obtain the corresponding short URL.
+Please note that this is a very small technical documentation sheet. You can expand it further by including additional details such as installation instructions, configuration options, error handling, and testing instructions based on your specific requirements.
